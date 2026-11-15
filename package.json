@@ -1,0 +1,6 @@
+{
+  "name": "pitcross", "version": "0.1.0", "private": true,
+  "scripts": {"dev": "next dev", "build": "next build", "typecheck": "tsc --noEmit", "test": "tsx --test tests/*.test.ts", "worker:dev": "wrangler dev --config worker/wrangler.toml", "worker:deploy": "wrangler deploy --config worker/wrangler.toml"},
+  "dependencies": {"next": "^16.0.0", "react": "^19.2.0", "react-dom": "^19.2.0"},
+  "devDependencies": {"@cloudflare/workers-types": "^5.20261113.1", "@tailwindcss/postcss": "^4.1.0", "@types/node": "^24.0.0", "@types/react": "^19.2.0", "@types/react-dom": "^19.2.0", "tailwindcss": "^4.1.0", "tsx": "^4.20.0", "typescript": "^5.9.0", "wrangler": "^4.0.0"}
+}
